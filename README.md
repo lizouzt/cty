@@ -1,7 +1,7 @@
 # 社区小程序(分wepy版本和云开发版本)
 
 # 已经支持云版本
-[云版本](https://github.com/liubin1592/community/tree/master/miniprogram-cloud)
+[云版本](./miniprogram-cloud)
 ---
 > 功能介绍
 
@@ -19,16 +19,12 @@
 > + 【分享】用户可以分享帖子到微信,生成海报分享到朋友圈
 > + 【打赏】用户可以打赏文章
 
-# API目录为后端API
-[后端API](https://github.com/liubin1592/community/tree/master/api)
-需要后端的请联系微信
-
 # 如何运行
 
 #### 安装依赖
 
 ```console
-npm install @wepy/cli@2.0.0-alpha.20 -g
+npm install @wepy/cli -g
 cd community
 npm install
 ```
@@ -42,21 +38,6 @@ wepy build --watch
 #### 开发者工具导入项目
 
 使用`微信开发者工具`新建项目，本地开发选择项目`community`目录，会自动导入项目配置。
-
-# 玉帛书小程序码
-
-![小程序码](https://www.wutuobangxinyougou.com/images/qr.jpg)
-
-
-# 合作
-
-![截图](https://www.wutuobangxinyougou.com/images/user.png)
-
-# 打赏
----
-##### 如果用着不错，可以『打赏』支持。因为有你，开源更美好。
-
-![截图](https://www.wutuobangxinyougou.com/pay1.png)
 
 # 小程序内部截图
 
