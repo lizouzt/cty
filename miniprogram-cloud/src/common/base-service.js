@@ -161,7 +161,7 @@ export default class BaseService {
         console.log(data);
 
         return await wx.cloud.callFunction({
-            name: 'api',
+            name: 'circleApi',
             data: {
                 controller,
                 action,

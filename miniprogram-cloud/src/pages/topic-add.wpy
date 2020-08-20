@@ -162,10 +162,6 @@
       <icon type="success" size="16" color="#{{isAuth ? 'ffd100' : '7a8299'}}" />
       <div>完成学生认证</div>
     </div>
-    <div class="cell">
-      <icon type="success" size="16" color="#{{isVip ? 'ffd100' : '7a8299'}}" />
-      <div>已成为VIP用户</div>
-    </div>
     <div class="footer">
       <button
         class="btn-add {{disabled ? 'btn-disabled' : ''}}"
@@ -187,7 +183,7 @@ wepy.page({
     nickName: '',
     disabled: true,
     isAuth: false,
-    isVip: false
+    isVip: true
   },
   onLoad() {
     const { isAuth, isBinding, userType, grade } = wx.getStorageSync('user');
